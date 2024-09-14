@@ -197,9 +197,9 @@ int main(int ac, char **av) {
 		make << ".PHONY: clean" << std::endl;
 
 		make.close();
-		std::cout << "\033b[31;1m Makefile is generated\033[0m" << std::endl;
+		std::cout << "\033[31;1m Makefile is generated\033[0m" << std::endl;
 	} else {
-		std::cout << "\033b[31;1m Makefile is not generated because it already exist\033[0m" << std::endl;
+		std::cout << "\033[31;1m Makefile is not generated because it already exist\033[0m" << std::endl;
 	}
 
 	if (IsThereMain == false) {
