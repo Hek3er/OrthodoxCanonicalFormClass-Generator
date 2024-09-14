@@ -1,0 +1,17 @@
+$REP::$REP() {
+	std::cout <<"Constructor Called" << std::endl;
+}
+
+$REP::$REP( $REP& obj ) {
+	std::cout << "Copy Constructor Called" << std::endl;
+	*this = obj;
+}
+
+$REP& $REP::operator=( const $REP& obj ) {
+
+	return (*this);
+}
+
+$REP::~$REP( ) {
+	std::cout << this->_Name << ": Deconstructor Called" << std::endl;
+}

@@ -1,0 +1,17 @@
+#pragma once
+
+#include <iostream>
+
+class $REP {
+
+public:
+
+	$REP();
+	$REP( $REP& obj );
+
+	$REP& operator=( const $REP& obj );
+	~$REP();
+
+private:
+
+};
